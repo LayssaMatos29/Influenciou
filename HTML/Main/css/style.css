@@ -17,7 +17,7 @@ Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 /* ================================================================================== 
 Reset Css
-===================================================================================== */
+===============================================header====================================== */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -315,6 +315,7 @@ input[type=text] {
 
   .wrapper {
     margin-left: 240px;
+    
   }
 
   .wrapper__minify {
@@ -667,6 +668,7 @@ i.icon1 {
 .wrapper {
 	padding: 90px 0 0;
     transition: all 0.3s ease-out;
+    
 }
 
 .clearfix:after {
@@ -4558,13 +4560,13 @@ a.rmv-btn i {
 
 .ml_item {
     float: left;
-	width: 80%;
+	width: 50%;
     text-align: center;
 }
 
 .main_logo15 {
 	float: none;
-    width: 135px;
+    width: 1px;
     text-align: center;
     margin: auto !important;
 }
