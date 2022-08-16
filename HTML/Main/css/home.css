@@ -313,7 +313,7 @@ input[type=text] {
   }
 
   .wrapper {
-    margin-left: 240px;
+    /* margin-left: 240px; */
   }
 
   .wrapper__minify {
@@ -393,7 +393,7 @@ header {
 
 .main_logo {
     float: left;
-    width: 135px;
+    /* width: 135px; */
     margin-left: 20px;
 }
 
@@ -403,7 +403,7 @@ header {
 
 .search120 {
     float: left;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .srch10 {
@@ -477,6 +477,22 @@ i.icon1 {
     border: 2px solid #fff;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
     margin-left: 10px;
+}
+
+.login_btn{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif ;
+    color: #fff;
+    background-color: #333;
+    padding: 9px 15px;
+    border-radius: 25px;
+	margin-right: 10px;
+}
+
+.login_btn:hover{
+    color: #fff;
+    background-color: #ed2a26;
 }
 
 .upload_btn {
@@ -704,6 +720,7 @@ i.icon1 {
     padding-top: 3px;
     margin-bottom: 20px;
 }
+
 
 .la5lo1 {
     float: left;
@@ -1276,7 +1293,7 @@ i.icon1 {
 .value_content {
     float: left;
     width: 100%;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 .value_content h4 {
@@ -1821,6 +1838,26 @@ i.icon1 {
     padding: 10px 15px;
     border: 0;
     border-radius: 20px;
+    color: #ed2a26;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    float: right;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.btn1542:hover {
+    color: #afafaf !important;
+     /* background: #c72127; */
+ }
+
+.btn15421{
+    height: 40px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 20px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     background: #ed2a26;
@@ -1829,10 +1866,11 @@ i.icon1 {
     display: inline-block;
 }
 
-.btn1542:hover {
+.btn15421{
     color: #fff !important;
     background: #c72127;
 }
+
 
 .lng_btn {
 	margin-top: 20px;
@@ -4033,7 +4071,7 @@ a.rmv-btn i {
 }
 
 .ui.label.lb12 {
-    background-color: #dedfe !important;
+    background-color: #dedede !important;
     padding: .9999em 1.2em !important;
     color: #686f7a !important;
     border-top-left-radius: 500rem !important;
@@ -5674,11 +5712,10 @@ a.rmv-btn i {
 
 .main_logo25 {
     float: none;
+    width: 135px;
     text-align: center;
-    /* margin-left: 1%; */
     margin: auto !important;
-    padding-bottom: ;
-	
+	padding: 50px 0;
 }
 
 .sign_in_up_bg {
@@ -5854,7 +5891,7 @@ a.rmv-btn i {
 	background: #34a853 !important;
 }
 
-./* --- Forgot Password Page --- */
+/* --- Forgot Password Page --- */
 
 .main-tabs {
     width: 100%;
@@ -7759,10 +7796,11 @@ a.rmv-btn i {
 	font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     color: #333;
-    padding: 15px;
     position: relative;
 	display: flex;
     align-items: center;
+    padding-left: 25px;
+    padding-right: 50px;
 }
 
 .night_mode_switch__btn a i {
@@ -7772,7 +7810,7 @@ a.rmv-btn i {
 	background: #ffecec;
 	border-radius: 100%;
 	margin-right: 10px;
-	padding: 6px 4px 0;
+	padding: 6px 4px;
 	display: inline-block;
 }
 
