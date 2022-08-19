@@ -31,6 +31,6 @@ class RolesAndPermissionsSeeder extends Seeder
             'password' => Hash::make('admin@influenciou2022', ['cost' => 12])
         ]);
 
-        $user->assingRole('admin');
+        $user->assignRole('admin');
     }
 }
