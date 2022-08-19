@@ -7,7 +7,7 @@ Features :-
 - Unique Homepage
 - Instructor Dashbaord
 - Student Dashbaord
-- Create New Course
+- Criar novo curso
 - Live Stream Class
 - Chat Page
 - Invoice page

@@ -3446,3 +3446,15 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+
+$('.carroselcursos').owlCarousel({
+	loop:true,
+	autoplay:true,
+	autoplayTimeout:8000,
+	margin:10,
+	nav:true,
+	navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+	dots: false,
+	mouseDrag: false,
+	items:3
+});

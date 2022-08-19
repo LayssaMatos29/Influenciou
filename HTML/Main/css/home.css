@@ -7785,7 +7785,7 @@ a.rmv-btn i {
 /* --- Night Mode Btn --- */
 
 .night_mode_switch__btn {
-    border-bottom: 1px solid #efefef;
+    /* border-bottom: 1px solid #efefef; */
 }
 
 .night_mode_switch__btn a {
