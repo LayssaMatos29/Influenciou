@@ -1,0 +1,18 @@
+Framework PHP Laravel 9
+Versão do PHP 8
+Banco de dados utilizado Mysql
+
+renomear o arquivo .envexample para .env
+e editar as configurações do mesmo.
+
+depois rodar o comando "php artisan key:generate"
+
+depois crie um banco de dados com o nome que quiser e coloque no arquivo .env os dados de conexão com o seu banco de dados.
+após isso basta rodar os seguinte comandos:
+
+1º php artisan migrate
+2º php artisan db:seed RolesAndPermissionsSeeder
+
+Após tudo isso vai ser criado um usuário admin
+login: admin@influenciou.com.br
+senha: admin@influenciou2022
