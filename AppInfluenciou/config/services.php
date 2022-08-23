@@ -34,7 +34,7 @@ return [
     'google' => [
         'client_id' => 'seu_cliente_id_do_google',
         'client_secret' => 'seu_client_secret_do_google',
-        'redirect' => 'http://localhost:8000/auth/google/callback',
+        'redirect' => 'http://seusite.com.br/auth/google/callback',
     ],
 
 ];

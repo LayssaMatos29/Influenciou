@@ -21,7 +21,7 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/auth/google', [GoogleController::class, 'redirectToGoogle'])->name('auth.google');
-Route::get('/auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
+Route::get('/auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('auth.google.callback');
 
 Route::get('logoff', function () {
     Auth::logout();
