@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\GoogleController;
+use App\Http\Controllers\GuestController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -15,10 +16,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-})->name('welcome');
 
 Route::get('/auth/google', [GoogleController::class, 'redirectToGoogle'])->name('auth.google');
 Route::get('/auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('auth.google.callback');
@@ -38,3 +35,12 @@ Route::group([
 });
 
 Route::get('/home', [HomeController::class, 'redirect'])->name('home');
+
+Route::get('/', [GuestController::class, 'index'])->name('welcome');
+Route::get('/about-us', [GuestController::class, 'aboutUs'])->name('about.us');
+Route::get('/blog', [GuestController::class, 'blog'])->name('blog');
+Route::get('/careers', [GuestController::class, 'careers'])->name('careers');
+Route::get('/press', [GuestController::class, 'press'])->name('press');
+Route::get('/help', [GuestController::class, 'help'])->name('help');
+Route::get('/contatc-us', [GuestController::class, 'contactUs'])->name('contact.us');
+Route::get('/terms-of-use', [GuestController::class, 'termsOfUse'])->name('terms.of.use');
