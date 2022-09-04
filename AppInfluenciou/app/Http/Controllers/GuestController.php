@@ -36,7 +36,7 @@ class GuestController extends Controller
         return view('help');
     }
     
-    public function contatUs()
+    public function contactUs()
     {
         return view('contact-us');
     }
@@ -51,5 +51,10 @@ class GuestController extends Controller
         return view('course-details', [
             'uuid' => $uuid
         ]);
+    }
+    
+    public function searchCourse()
+    {
+        return view('course-results');
     }
 }

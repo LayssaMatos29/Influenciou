@@ -44,3 +44,5 @@ Route::get('/press', [GuestController::class, 'press'])->name('press');
 Route::get('/help', [GuestController::class, 'help'])->name('help');
 Route::get('/contatc-us', [GuestController::class, 'contactUs'])->name('contact.us');
 Route::get('/terms-of-use', [GuestController::class, 'termsOfUse'])->name('terms.of.use');
+Route::get('/course-details/{id}', [GuestController::class, 'courseDetails'])->name('course-detail');
+Route::get('/course-results', [GuestController::class, 'searchCourse'])->name('course-search');
