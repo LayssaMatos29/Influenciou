@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 	<head>
 		<meta charset="utf-8">
@@ -26,7 +26,7 @@
 		<link href="{{ asset('assets/vendor/OwlCarousel/assets/owl.theme.default.min.css') }}" rel="stylesheet">
 		<link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="{{ asset('assets/vendor/semantic/semantic.min.css') }}">		
-		
+		@stack('styles')
 	</head>
 
 <body>
@@ -42,7 +42,7 @@
 	<!-- Body Start -->
 	<div class="wrapper">
 		<div class="sa4d25">
-			<div class="container-fluid vh-100">
+			<div class="container-fluid" style="min-height: 100vh;">
 				@yield('content')
 			</div>
 		</div>
@@ -101,7 +101,7 @@
 	<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 	<script src="{{ asset('assets/vendor/OwlCarousel/owl.carousel.js') }}"></script>
 	<script src="{{ asset('assets/vendor/semantic/semantic.min.js') }}"></script>
-	<script src="{{ asset('assets/js/custom1.js') }}"></script>
+	<script src="{{ asset('assets/js/custom.js') }}"></script>
 	<script src="{{ asset('assets/js/night-mode.js') }}"></script>
 	<script>
 		const logout = () => {

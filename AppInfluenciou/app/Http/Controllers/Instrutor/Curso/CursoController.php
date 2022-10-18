@@ -6,12 +6,15 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Curso;
 use App\Http\Requests\CursoRequest;
+use Illuminate\Support\Facades\Auth;
 
 class CursoController extends Controller
 {
     public function index()
     {
-        return view('Dashboard.instrutor.curso.index');
+        return view('Dashboard.instrutor.curso.index', [
+            'cursos' => Curso::where('instrutor_id', Auth::user()->id)->get()
+        ]);
     }
 
     public function create()

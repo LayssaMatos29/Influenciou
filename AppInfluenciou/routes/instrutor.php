@@ -11,5 +11,5 @@ Route::group([
         return view('Dashboard.instrutor.index');
     })->name('dashboard.instrutor.index');
 
-    Route::resource('/curso', CursoController::class);
+    Route::resource('/cursos', CursoController::class);
 });
