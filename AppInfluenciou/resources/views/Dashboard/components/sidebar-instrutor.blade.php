@@ -9,9 +9,9 @@
                     </a>
                 </li>
                 <li class="menu--item">
-                    <a href="instructor_courses.html" class="menu--link" title="Courses">
+                    <a href="{{ route('cursos.index') }}" class="menu--link" title="Courses">
                         <i class='uil uil-book-alt menu--icon'></i>
-                        <span class="menu--label">Courses</span>
+                        <span class="menu--label">Cursos</span>
                     </a>
                 </li>
                 <li class="menu--item">
