@@ -15,9 +15,9 @@
                     </a>
                 </li>
                 <li class="menu--item">
-                    <a href="student_messages.html" class="menu--link" title="Messages">
+                    <a href="{{ route('categoria.index') }}" class="menu--link" title="Categorias">
                         <i class='uil uil-comments menu--icon'></i>
-                        <span class="menu--label">Messages</span>
+                        <span class="menu--label">Categorias</span>
                     </a>
                 </li>
                 <li class="menu--item">

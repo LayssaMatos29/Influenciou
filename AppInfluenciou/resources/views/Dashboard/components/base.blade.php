@@ -108,5 +108,6 @@
 			document.getElementById('logout').submit()
 		}
 	</script>
+	@stack('scripts')
 </body>
 </html>
