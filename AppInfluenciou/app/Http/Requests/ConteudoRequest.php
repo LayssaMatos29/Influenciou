@@ -25,9 +25,10 @@ class ConteudoRequest extends FormRequest
     {
         return [
             'modulo_id' => 'required',
+            'titulo' => 'required',
             'descricao' => 'required',
-            'disponivel' => 'required',
-            'curso_id' => 'required',
+            'link' => 'required',
+            'gratuito' => 'required',
         ];
     }
 }
