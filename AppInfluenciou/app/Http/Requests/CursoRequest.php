@@ -24,12 +24,13 @@ class CursoRequest extends FormRequest
     public function rules()
     {
         return [
-            'nome' => ['required'],
-            'descricao' => ['required'],
+            'titulo' => ['required'],
+            'sub_titulo' => ['required'],
             'categoria_id' => ['required'],
             'preco' => ['required'],
             'disponivel' => ['required'],
             'instrutor_id' => ['required'],
+            'idioma_id' => 'required',
         ];
     }
 }
